@@ -103,3 +103,10 @@ main{
 .fa-star.empty{
   color: #AEAEAE;
 }
+
+footer{
+    text-align: center;
+    background: #060116d2;
+    color: whitesmoke;
+    
+}
