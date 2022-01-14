@@ -6,6 +6,14 @@ body{
     font-family: 'Poppins', sans-serif;
    
 }
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 .container-one{
     margin-bottom: 40px;
 }
@@ -27,6 +35,7 @@ body{
     color:whitesmoke;
     padding: 10px;
    border-radius: 20px;
+   box-shadow: 5px 5px 9px gray;
 }
 .container-img{
     width: 10%;
@@ -37,5 +46,45 @@ body{
 
 .gadgets-heading{
     text-align: center;
+   margin-bottom: 35px;
 
+}
+
+.gadgets{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+}
+.gadgets{
+    margin-left: 2%;
+    border: 2px;
+    padding: 5px;
+  
+}
+.gadget{
+
+    background: #FFFFFF;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    margin-bottom: 25px;
+
+}
+}
+.gadget-img{
+    width: 300px;
+    height: 256px;
+
+}
+
+
+.course-info p{
+    font-size: 10px;
+}
+
+
+.fa-star.filled{
+  color: #FFC014;
+}
+.fa-star.empty{
+  color: #AEAEAE;
 }
