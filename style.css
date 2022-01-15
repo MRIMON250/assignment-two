@@ -8,6 +8,25 @@ body{
    
 }
 
+nav > ul{
+    display: flex;
+    justify-content: end;
+}
+li{
+    list-style: none;
+    margin-right: 15px;
+    padding: 8px;
+    
+}
+ul > li:hover{
+    background-color:#e90c9f6e;
+    border-radius: 8px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+
 main{
     display: flex;
     flex-direction: column;
@@ -33,7 +52,7 @@ main{
 }
 .contener-text a{
     text-decoration: none;
-    background-color:#e90c9f;
+    background-color:#e90c9fc2;
     color:whitesmoke;
     padding: 10px;
    border-radius: 20px;
@@ -49,8 +68,8 @@ main{
  }
  .logo{
      margin-left: 20px;
-     margin-top: 20px;
-     margin-bottom: 35px;
+     margin-top: 10px;
+     margin-bottom: 20px;
      padding: 20px;
  }
 
@@ -64,6 +83,9 @@ main{
    margin-bottom: 35px;
 
 }
+.gadgets-section {
+    display: flex;
+    flex-direction: column;}
 
 .gadgets{
     display: grid;
@@ -91,11 +113,10 @@ main{
 
 }
 
-
-.course-info p{
-    font-size: 10px;
+.see-more-icon {
+    text-decoration: none;
+    
 }
-
 
 .fa-star.filled{
   color: #FFC014;
@@ -104,9 +125,44 @@ main{
   color: #AEAEAE;
 }
 
+.course-info p{
+    font-size: 10px;
+}
+
+/*------------------
+ lens section ---
+---------------------- */
+.lens-section{
+    display: flex;
+    margin: 20px;
+}
+.lens-img{
+    margin-left: 60px;
+    border-radius: 5px;
+}
+.lens-text{
+    width: 50%;
+    margin-left: 20%;
+
+}
+.lens-text a{
+     text-decoration: none;
+     background-color:#e90c9fc2;
+     color:whitesmoke;
+     padding: 10px;
+     border-radius: 20px;
+     box-shadow: 5px 5px 9px gray;
+    }
+}
+/* footer section  */
 footer{
+    height:150px;
     text-align: center;
+    padding-top: 20px;
     background: #060116d2;
     color: whitesmoke;
     
 }
+
+
+ 
